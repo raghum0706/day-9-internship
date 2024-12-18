@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body div h1 {
+            text-align: center;
+            position: relative;
+        }
+        body div form {
+            text-align: center;
+        }
+        body div form label{
+            position: absolute;
+            left: 44.5%;
+        } 
+        #dob{
+            position: absolute;
+            left: 44.5%;
+            width: 163px;
+        }
+        .bg-image{
+            background-image: url(bg.jpg);
+            background-size: cover;
+            height: 100vh;
+        }
+        #login {
+            width: 57px;
+        }
+        #submit {
+            width: 57px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-image">
+        <h1>STUDENT REGISTRATION</h1>
+        <form action="">
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fn" name="fname"><br>
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="ln" name="lname"><br>
+            <label for="dob">Date of Birth</label><br>
+            <input type="date" id="dob" name="dob"><br>
+            <label for="cn">Contact Number</label><br>
+            <input type="number" id="cn" name="cn"><br>
+            <label for="fan">Father Name</label><br>
+            <input type="text" id="fan" name="fan"><br>
+            <label for="fno">Father Number</label><br>
+            <input type="number" id="fno" name="fno"><br>
+            <label for="man">Mother Name</label><br>
+            <input type="text" id="man" name="man"><br>
+            <label for="mno">Mother Number</label><br>
+            <input type="number" id="mno" name="mno"><br>
+            <label for="add">Address</label><br>
+            <input type="text" name="add" id="add"><br>
+            <label for="mail">Email</label><br> 
+            <input type="text" name="mail" id="mail"><br><br>
+            <input type="submit" id="submit" value="Submit"><br><br>
+            <a href="login.html"><input type="button" id="login" value="Login"></a>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-image{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-image header {
+    position: relative;
+}
+
+.bg-image header a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    font-size: large;
+}
+
+.a1{
+    left: 68%;
+    top: 35%;
+}
+
+.a2{
+    left: 72.5%;
+    top: 35%;
+}
+.a3{
+    left: 78%;
+    top: 35%;
+}
+.a4{
+    left: 83%;
+    top: 35%;
+}
+.a5{
+    left: 87.5%;
+    top: 35%;
+}
+
+.bg-image header a:hover {
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background-color: rgb(56, 50, 50);
+    border-width: 10px;
+}   
